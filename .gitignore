@@ -37,6 +37,5 @@ bun.lockb
 # Temporary files
 tmp/
 temp/
-
-
-config.bat
+.env
+.env.local
