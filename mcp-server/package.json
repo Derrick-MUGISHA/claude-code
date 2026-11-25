@@ -13,10 +13,10 @@
     "claude-code-explorer-mcp": "dist/index.js"
   },
   "scripts": {
-    "build": "node init && tsc",
-    "start": "node init && node dist/index.js",
-    "start:http": "node init && node dist/http.js",
-    "dev": "node init && npx tsx src/index.ts"
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "start:http": "node dist/http.js",
+    "dev": "npx tsx src/index.ts"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.12.1",
